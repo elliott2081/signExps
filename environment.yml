@@ -1,0 +1,17 @@
+name: sign_env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - numpy=1.23.5
+  - opencv=4.8.0
+  - pip:
+    - tensorflow-macos==2.12.0
+    - tensorflow-metal==0.8.0
+    - transformers
+    - matplotlib
+    - ipykernel
+    - huggingface-hub
+    - pillow
